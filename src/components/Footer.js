@@ -1,9 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { Layout } from 'antd';
 
-class Footer extends Component {
-	render() {
-		return <footer>Footer</footer>;
-	}
-}
+const Footer = () => (
+	<Layout style={{ textAlign: 'center' }}>
+		Ant Design ©2018 Created by Ant UED
+	</Layout>
+);
 
 export default Footer;

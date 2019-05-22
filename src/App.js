@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
-import './style/App.css';
+import { Layout } from 'antd';
 import Routes from './Routes';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import './style/App.css';
 
 class App extends Component {
 	render() {
 		return (
 			<div className='App'>
-				<Header />
-				<Routes />
-				<Footer />
+				<Layout>
+					<Header />
+					<Routes />
+					<Footer />
+				</Layout>
 			</div>
 		);
 	}

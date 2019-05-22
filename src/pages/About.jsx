@@ -1,5 +1,5 @@
 import React from 'react';
 
-const Projects = () => <div>Project's page content</div>;
+const Projects = () => <div>Abouts page content</div>;
 
 export default Projects;

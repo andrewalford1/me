@@ -1,23 +1,26 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Menu, Icon } from 'antd';
 
 const Navigation = () => (
-	<nav>
-		<ul>
-			<li>
+	<div>
+		<Menu mode='horizontal'>
+			<Menu.Item key='/'>
 				<Link to='/'>Home</Link>
-			</li>
-			<li>
+			</Menu.Item>
+			<Menu.Item key='/about'>
 				<Link to='/about'>About</Link>
-			</li>
-			<li>
-				<Link to='/contact'>Contact</Link>
-			</li>
-			<li>
+			</Menu.Item>
+			<Menu.Item key='/contact'>
+				<Link to='/contact'>
+					<Icon type='mail' /> Contact
+				</Link>
+			</Menu.Item>
+			<Menu.Item key='/projects'>
 				<Link to='/projects'>Projects</Link>
-			</li>
-		</ul>
-	</nav>
+			</Menu.Item>
+		</Menu>
+	</div>
 );
 
 export default Navigation;
