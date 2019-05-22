@@ -1,15 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
-import createHashHistory from 'history/createHashHistory';
+import { HashRouter as Router } from 'react-router-dom';
 import './style/index.css';
-import App from './components/App';
+import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-const HASH_HISTORY = createHashHistory({ basename: process.env.PUBLIC_URL });
-
 ReactDOM.render(
-	<Router history={HASH_HISTORY}>
+	<Router>
 		<App />
 	</Router>,
 	document.getElementById('root')
