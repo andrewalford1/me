@@ -1,27 +1,35 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Nav } from 'react-bootstrap';
+import { Navbar, Nav, NavItem } from 'react-bootstrap';
 
-const Navigation = () => (
-	<div>
-		<Nav className='mr-auto'>
-			<Nav>
-				{/* "NavLink" here since "active" class styling is needed */}
-				<Nav.Link as={NavLink} to='/' exact>
-					Home
-				</Nav.Link>
-				<Nav.Link as={NavLink} to='/about'>
-					About
-				</Nav.Link>
-				<Nav.Link as={NavLink} to='/contact'>
-					Contact
-				</Nav.Link>
-				<Nav.Link as={NavLink} to='/projects'>
-					Projects
-				</Nav.Link>
-			</Nav>
-		</Nav>
-	</div>
-);
+const Navigation = props => {
+	let items = [];
+	if (props.routes) {
+		props.routes.forEach(function(route, index) {
+			items.push(
+				<NavItem key={index}>
+					<Nav.Link as={NavLink} to={route.route} exact>
+						{route.name}
+					</Nav.Link>
+				</NavItem>
+			);
+		});
+	}
+
+	return props.routes ? (
+		<Navbar
+			className='mr-auto'
+			style={{ width: '100%', textAlign: 'center' }}
+			expand='md'
+			sticky='top'
+		>
+			<Navbar.Brand>{props.brand}</Navbar.Brand>
+			<Navbar.Toggle aria-controls='basic-navbar-nav' />
+			<Navbar.Collapse id='basic-navbar-nav'>
+				<Nav defaultActiveKey={props.routes[0]}> {items} </Nav>
+			</Navbar.Collapse>
+		</Navbar>
+	) : null;
+};
 
 export default Navigation;

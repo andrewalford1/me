@@ -1,3 +1,10 @@
-.App-Nav {
-	margin-top: 15px;
+.App-Header {
+	text-align: center;
+}
+
+.App-Footer {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
 }
