@@ -1,20 +1,24 @@
 import React, { Component } from 'react';
-import { Layout } from 'antd';
+import { Container, Row, Col } from 'react-bootstrap';
 import Routes from './Routes';
 import Header from './components/Header';
-import Footer from './components/Footer';
-import './style/App.css';
 
 class App extends Component {
 	render() {
 		return (
-			<div className='App'>
-				<Layout>
+			<Container>
+				<Row>
 					<Header />
+				</Row>
+				<Row>
 					<Routes />
-					<Footer />
-				</Layout>
-			</div>
+				</Row>
+				<Row>
+					<Col>
+						<div>Footer</div>
+					</Col>
+				</Row>
+			</Container>
 		);
 	}
 }
