@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import Routes from './Routes';
 import Header from './components/Header';
 import Footer from './components/Footer';

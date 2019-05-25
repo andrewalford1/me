@@ -8,17 +8,20 @@ const Home = () => (
 				{
 					imgSrc: './res/img/red.jpg',
 					imgAlt: 'red',
-					content: 'RED'
+					content: 'RED',
+					link: './projects#Project-A'
 				},
 				{
 					imgSrc: './res/img/green.jpg',
 					imgAlt: 'green',
-					content: 'GREEN'
+					content: 'GREEN',
+					link: './projects#Project-B'
 				},
 				{
 					imgSrc: './res/img/blue.jpg',
 					imgAlt: 'blue',
-					content: 'BLUE'
+					content: 'BLUE',
+					link: './projects#Project-C'
 				}
 			]}
 		/>

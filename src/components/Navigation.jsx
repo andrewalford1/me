@@ -21,7 +21,6 @@ const Navigation = props => {
 			className='mr-auto'
 			style={{ width: '100%', textAlign: 'center' }}
 			expand='md'
-			sticky='top'
 		>
 			<Navbar.Brand>{props.brand}</Navbar.Brand>
 			<Navbar.Toggle aria-controls='basic-navbar-nav' />
