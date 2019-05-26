@@ -15,7 +15,8 @@ class App extends Component {
 						{ name: 'About', route: '/about' },
 						{ name: 'News', route: '/news' },
 						{ name: 'Projects', route: '/projects' },
-						{ name: 'Contact', route: '/contact' }
+						{ name: 'Contact', route: '/contact' },
+						{ name: 'Resume', route: './resume' }
 					]}
 				/>
 				<Routes />
