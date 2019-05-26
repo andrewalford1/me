@@ -4,6 +4,7 @@ import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
 import News from './pages/News.jsx';
 import Projects from './pages/Projects.jsx';
+import Timeline from './pages/Timeline.jsx';
 import UnknownPage from './pages/UnknownPage.jsx';
 
 const Routes = () => (
@@ -13,6 +14,7 @@ const Routes = () => (
 			<Route exact path='/about' component={About} />
 			<Route exact path='/news' component={News} />
 			<Route exact path='/projects' component={Projects} />
+			<Route exact path='/timeline' component={Timeline} />
 			<Route component={UnknownPage} />
 		</Switch>
 	</main>

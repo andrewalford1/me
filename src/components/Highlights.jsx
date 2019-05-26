@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
-import { Carousel, Button } from 'react-bootstrap';
+import { Carousel, Button, Image } from 'react-bootstrap';
 
 const Highlights = props => {
 	let carouselItems = [];
@@ -21,9 +21,9 @@ const Highlights = props => {
 			}
 			carouselItems.push(
 				<Carousel.Item key={index}>
-					<img
+					<Image
+						fluid
 						className='d-block w-100'
-						style={{ maxWidth: '100%' }}
 						src={highlight.imgSrc}
 						alt={highlight.imgAlt}
 					/>

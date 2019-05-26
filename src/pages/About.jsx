@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 const Projects = () => (
 	<div>
 		<h1 className='App-Header'>About</h1>
-		<Link>Download CV here</Link>
+		<Link to='/'>Download CV here</Link>
+
 		<div>
 			<p>
 				Eu cillum occaecat ipsum ex elit consectetur voluptate minim
@@ -14,16 +15,10 @@ const Projects = () => (
 			</p>
 			<div>
 				<h2>Academic Record</h2>
-				<p>
-					Sit non officia minim proident aute ipsum cillum esse ipsum
-					ipsum commodo magna est anim. Voluptate sunt occaecat elit
-					adipisicing minim sunt do ea incididunt. Est aliquip tempor
-					ea adipisicing sit commodo ad magna. Tempor occaecat ipsum
-					duis laborum. Ipsum occaecat tempor dolor exercitation
-					aliquip fugiat proident proident veniam pariatur
-					exercitation adipisicing. Adipisicing adipisicing magna quis
-					consectetur ex mollit sint ut laboris nostrud quis.
-				</p>
+				<h3>
+					Bachelor of Science (Honours) in Computer Science at
+					Northumbria University 2016-2019
+				</h3>
 			</div>
 			<div>
 				<h2>Skill Set</h2>
