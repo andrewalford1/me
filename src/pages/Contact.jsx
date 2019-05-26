@@ -1,5 +1,9 @@
 import React from 'react';
 
-const Contact = () => <div>Contact Page content</div>;
+const Contact = () => (
+	<div>
+		<h1 className='App-Header'>Contact</h1>
+	</div>
+);
 
 export default Contact;
