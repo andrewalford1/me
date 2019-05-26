@@ -3,6 +3,7 @@ import { Timeline as AntTimeline } from 'antd';
 
 const Timeline = () => (
 	<div>
+		<hr />
 		<h2>The Road So Far</h2>
 		<AntTimeline style={{ padding: '5%' }}>
 			<AntTimeline.Item>
@@ -23,7 +24,7 @@ const Timeline = () => (
 			<AntTimeline.Item>
 				2016
 				<ul>
-					<li>Graduated Sixth Form with Three A-Levels</li>
+					<li>Graduated Sixth Form with three A-Levels</li>
 					<li>Began serving pints at the pub</li>
 					<li>Started my Bachelors at Northumbria University</li>
 				</ul>
@@ -36,7 +37,7 @@ const Timeline = () => (
 						Week
 					</li>
 					<li>
-						Acted as Treasure for the Student Union's Farming
+						Acted as Treasurer for the Student Union's Farming
 						society
 					</li>
 					<li>

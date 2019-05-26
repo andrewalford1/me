@@ -1,9 +1,10 @@
 import React from 'react';
-import { Card, Button } from 'react-bootstrap';
+import { Card, ButtonGroup, Button } from 'react-bootstrap';
 import Highlights from '../components/Highlights';
 
 const Home = () => (
 	<div>
+		<hr />
 		<Highlights
 			highlights={[
 				{
@@ -26,6 +27,7 @@ const Home = () => (
 				}
 			]}
 		/>
+		<hr />
 		<h1 className='App-Header'>Andrew's Portfolio</h1>
 
 		<div>
@@ -38,12 +40,16 @@ const Home = () => (
 						eu velit. Reprehenderit enim enim pariatur voluptate
 						elit.
 					</Card.Text>
-					<Button variant='primary'>Learn More...</Button>
+
+					<ButtonGroup>
+						<Button variant='primary'>My Blog</Button>
+						<Button variant='primary'>My Life so far</Button>
+					</ButtonGroup>
 				</Card.Body>
 			</Card>
 			<Card>
 				<Card.Body>
-					<Card.Title>News</Card.Title>
+					<Card.Title>My Qualifications</Card.Title>
 					<Card.Text>
 						Aute magna reprehenderit commodo ea velit irure ut.
 						Cillum elit laborum exercitation id labore enim officia
@@ -55,7 +61,21 @@ const Home = () => (
 			</Card>
 			<Card>
 				<Card.Body>
-					<Card.Title>Projects</Card.Title>
+					<Card.Title>My Skills</Card.Title>
+					<Card.Text>
+						Ipsum nulla ut nostrud consectetur aute enim mollit
+						magna et voluptate cupidatat sit ullamco. Est cupidatat
+						commodo nulla quis pariatur sint incididunt. Fugiat aute
+						aliqua officia aliquip. Est labore aliquip magna aliqua
+						eiusmod veniam sint proident. Nulla non deserunt elit
+						enim tempor et sit incididunt.
+					</Card.Text>
+					<Button variant='primary'>Learn More...</Button>
+				</Card.Body>
+			</Card>
+			<Card>
+				<Card.Body>
+					<Card.Title>Projects I've Worked on</Card.Title>
 					<Card.Text>
 						Qui deserunt veniam qui mollit. Ullamco sit in nulla
 						consectetur aliqua duis proident consequat magna tempor.

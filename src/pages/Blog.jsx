@@ -1,8 +1,9 @@
 import React from 'react';
 
-const News = () => (
+const Blog = () => (
 	<div>
-		<h1 className='App-Header'>News</h1>
+		<hr />
+		<h1 className='App-Header'>Blog</h1>
 		<div>
 			<p>
 				Eu cillum occaecat ipsum ex elit consectetur voluptate minim
@@ -42,4 +43,4 @@ const News = () => (
 	</div>
 );
 
-export default News;
+export default Blog;

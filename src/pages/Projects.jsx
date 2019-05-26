@@ -2,6 +2,7 @@ import React from 'react';
 
 const Projects = () => (
 	<div>
+		<hr />
 		<h1 className='App-Header'>Projects</h1>
 		<div id='Project-A'>
 			<h2>No Rest for the Martians</h2>
