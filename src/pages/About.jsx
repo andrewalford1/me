@@ -57,6 +57,14 @@ const Projects = () => (
 					exercitation nulla incididunt.
 				</p>
 			</div>
+			<div>
+				<h2>Hire Me</h2>
+				<p>
+					Anim aliqua sint magna commodo cupidatat qui officia sunt
+					nisi laborum ad. Veniam irure irure nulla magna. Ad laboris
+					tempor eu laborum laboris.
+				</p>
+			</div>
 		</div>
 	</div>
 );
