@@ -25,41 +25,40 @@ const Home = () => (
 				}
 			]}
 		/>
-		<h1 className='App-Header'>Who Am I?</h1>
+		<h1 className='App-Header'>Andrew's Portfolio</h1>
+
 		<div>
+			<h2>Who Am I?</h2>
 			<p>
-				Eu cillum occaecat ipsum ex elit consectetur voluptate minim
-				enim nulla. Ea nulla ex occaecat pariatur qui eiusmod mollit
-				laborum dolore amet. Magna adipisicing amet nostrud sint in sint
-				laborum occaecat sint esse.
+				Ea veniam irure sit velit adipisicing aute cillum minim quis.
+				Occaecat laborum velit proident nisi anim pariatur eu velit.
+				Reprehenderit enim enim pariatur voluptate elit.
 			</p>
+			<h2>Keeping Up to Date</h2>
 			<p>
-				In do ad ad anim Lorem laborum incididunt magna aute labore
-				occaecat sit esse laborum. Velit ex cillum nulla proident
-				laborum enim veniam Lorem tempor. Dolore amet est eu est est non
-				eiusmod laborum. Id proident aliquip minim occaecat proident
-				minim magna non consectetur do duis aliqua.
+				Aute magna reprehenderit commodo ea velit irure ut. Cillum elit
+				laborum exercitation id labore enim officia nisi qui aliquip
+				excepteur laborum non. Eu duis nostrud adipisicing sit eu.
 			</p>
+			<h2>What have I been Working on?</h2>
 			<p>
-				Adipisicing sunt consectetur consectetur deserunt enim nostrud
-				qui pariatur id. Sunt tempor non occaecat magna sunt nulla
-				officia et et cillum id sunt est aliqua. In irure ad enim culpa
-				consequat. Minim proident do sunt est sit do cupidatat duis
-				aliquip labore enim adipisicing. Nulla ad cillum ad mollit
-				culpa.
+				Qui deserunt veniam qui mollit. Ullamco sit in nulla consectetur
+				aliqua duis proident consequat magna tempor. Eu aliqua ea ea
+				occaecat labore elit minim irure laboris commodo aliquip mollit
+				ullamco. Eu duis ea velit non est ipsum occaecat. Magna
+				consequat tempor irure id quis est qui Lorem eu proident
+				voluptate duis reprehenderit.
 			</p>
+			<h2>Looking to Hire me?</h2>
 			<p>
-				Ea enim magna ullamco adipisicing quis. Sunt cupidatat sint
-				aliqua sunt. Magna tempor do in ea consequat mollit. Non
-				incididunt ea esse reprehenderit irure dolor officia elit mollit
-				voluptate.
-			</p>
-			<p>
-				Qui minim magna et aute velit cillum dolor et non et dolore.
-				Anim sit sit culpa sit esse sint culpa aute ea nulla ullamco
-				aute reprehenderit. Velit tempor duis tempor eu voluptate est
-				deserunt deserunt. Nisi exercitation deserunt est ea sint ex
-				cillum fugiat commodo.
+				Velit est commodo eu nostrud deserunt incididunt anim do eu id
+				ipsum. Velit et dolor anim id elit dolore eu consequat cillum
+				cillum. Magna nisi adipisicing esse Lorem cillum dolor fugiat
+				duis eiusmod. Irure consequat incididunt ipsum reprehenderit
+				officia occaecat. Dolor incididunt officia officia quis aute
+				sint aliqua culpa. Velit proident sit quis veniam ut eu
+				excepteur labore id. Officia voluptate consectetur fugiat anim
+				aliqua amet ex irure velit Lorem ex culpa irure.
 			</p>
 		</div>
 	</div>
