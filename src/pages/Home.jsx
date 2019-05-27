@@ -42,8 +42,12 @@ const Home = () => (
 					</Card.Text>
 
 					<ButtonGroup>
-						<Button variant='primary'>My Blog</Button>
-						<Button variant='primary'>My Life so far</Button>
+						<Button variant='primary' href='#/blog'>
+							My Blog
+						</Button>
+						<Button variant='primary' href='#/timeline'>
+							My Life so far
+						</Button>
 					</ButtonGroup>
 				</Card.Body>
 			</Card>
@@ -56,7 +60,9 @@ const Home = () => (
 						nisi qui aliquip excepteur laborum non. Eu duis nostrud
 						adipisicing sit eu.
 					</Card.Text>
-					<Button variant='primary'>Learn More...</Button>
+					<Button variant='primary' href='#/qualifications'>
+						Learn More...
+					</Button>
 				</Card.Body>
 			</Card>
 			<Card>
@@ -70,7 +76,9 @@ const Home = () => (
 						eiusmod veniam sint proident. Nulla non deserunt elit
 						enim tempor et sit incididunt.
 					</Card.Text>
-					<Button variant='primary'>Learn More...</Button>
+					<Button variant='primary' href='#/skills'>
+						Learn More...
+					</Button>
 				</Card.Body>
 			</Card>
 			<Card>
@@ -84,7 +92,9 @@ const Home = () => (
 						ipsum occaecat. Magna consequat tempor irure id quis est
 						qui Lorem eu proident voluptate duis reprehenderit.
 					</Card.Text>
-					<Button variant='primary'>Learn More...</Button>
+					<Button variant='primary' href='#/projects'>
+						Learn More...
+					</Button>
 				</Card.Body>
 			</Card>
 		</div>

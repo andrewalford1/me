@@ -10,7 +10,7 @@ const Highlights = props => {
 			if (highlight.link) {
 				button = (
 					<Button
-						variant='info'
+						variant='primary'
 						size='sm'
 						as={NavLink}
 						to={highlight.link}
