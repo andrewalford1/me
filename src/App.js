@@ -18,6 +18,11 @@ class App extends Component {
 						{ name: 'Projects', route: '/projects' },
 						{ name: 'Timeline', route: '/timeline' }
 					]}
+					download={{
+						name: 'CV',
+						link:
+							'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf'
+					}}
 				/>
 				<Routes />
 				<Footer />
