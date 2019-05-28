@@ -1,36 +1,65 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import React, { Component } from 'react';
+import {
+	MDBNavbar,
+	MDBNavbarBrand,
+	MDBNavbarToggler,
+	MDBCollapse,
+	MDBNavbarNav,
+	MDBNavItem,
+	MDBNavLink
+} from 'mdbreact';
 
-const Navigation = props => {
-	let items = [];
-	if (props.routes) {
-		props.routes.forEach(function(route, index) {
-			items.push(
-				<NavItem key={index}>
-					<Nav.Link as={NavLink} to={route.route} exact>
-						{route.name}
-					</Nav.Link>
-				</NavItem>
-			);
-		});
+class Navigation extends Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			isOpen: false,
+			activeItem: 0
+		};
 	}
 
-	return props.routes ? (
-		<Navbar
-			className='mr-auto'
-			style={{ width: '100%', textAlign: 'center' }}
-			expand='md'
-		>
-			<Navbar.Brand>{props.brand}</Navbar.Brand>
-			<Navbar.Toggle aria-controls='basic-navbar-nav' />
-			<Navbar.Collapse id='basic-navbar-nav'>
-				<Nav defaultActiveKey={props.routes[0]} className='mr-auto'>
-					{items}
-				</Nav>
-			</Navbar.Collapse>
-		</Navbar>
-	) : null;
-};
+	toggleCollapse = () => {
+		this.setState({ isOpen: !this.state.isOpen });
+	};
+
+	toggleTab = tab => () => {
+		if (this.state.activeItem !== tab) {
+			this.setState({ activeItem: tab });
+		}
+	};
+
+	render() {
+		let items = [];
+		if (this.props.routes) {
+			this.props.routes.forEach((route, index) => {
+				items.push(
+					<MDBNavItem
+						key={index}
+						active={this.state.activeItem === index}
+						onClick={this.toggleTab(index)}
+					>
+						<MDBNavLink to={route.route} exact>
+							{route.name}
+						</MDBNavLink>
+					</MDBNavItem>
+				);
+			});
+		}
+
+		return this.props.routes && this.props.brand ? (
+			<MDBNavbar color='white' light expand='md'>
+				<MDBNavbarBrand>{this.props.brand}</MDBNavbarBrand>
+				<MDBNavbarToggler onClick={this.toggleCollapse} />
+				<MDBCollapse
+					id='navbarCollapse3'
+					isOpen={this.state.isOpen}
+					navbar
+				>
+					<MDBNavbarNav left>{items}</MDBNavbarNav>
+				</MDBCollapse>
+			</MDBNavbar>
+		) : null;
+	}
+}
 
 export default Navigation;
