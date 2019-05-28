@@ -8,22 +8,39 @@ const Home = () => (
 		<Highlights
 			highlights={[
 				{
-					imgSrc: './res/img/red.jpg',
-					imgAlt: 'red',
-					content: 'RED',
+					imgSrc:
+						'https://mdbootstrap.com/img/Photos/Slides/img%20(1).jpg',
+					imgAlt: 'MDB image 1',
+					content: 'Slide 1',
 					link: './projects#Project-A'
 				},
 				{
-					imgSrc: './res/img/green.jpg',
-					imgAlt: 'green',
-					content: 'GREEN',
+					imgSrc:
+						'https://mdbootstrap.com/img/Photos/Slides/img%20(11).jpg',
+					imgAlt: 'MDB image 11',
+					content: 'Slide 2',
 					link: './projects#Project-B'
 				},
 				{
-					imgSrc: './res/img/blue.jpg',
-					imgAlt: 'blue',
-					content: 'BLUE',
+					imgSrc:
+						'https://mdbootstrap.com/img/Photos/Slides/img%20(21).jpg',
+					imgAlt: 'MDB image 21',
+					content: 'Slide 3',
 					link: './projects#Project-C'
+				},
+				{
+					imgSrc:
+						'https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg',
+					imgAlt: 'MDB image 31',
+					content: 'Slide 4',
+					link: './projects#Project-D'
+				},
+				{
+					imgSrc:
+						'https://mdbootstrap.com/img/Photos/Slides/img%20(41).jpg',
+					imgAlt: 'MDB image 41',
+					content: 'Slide 5',
+					link: './projects#Project-E'
 				}
 			]}
 		/>

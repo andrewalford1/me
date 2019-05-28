@@ -29,7 +29,6 @@ class Navigation extends Component {
 		let items = [];
 		if (this.props.routes) {
 			this.props.routes.forEach((route, index) => {
-				console.log(route.route);
 				items.push(
 					<MDBNavItem key={index}>
 						<MDBNavLink to={route.route} exact>
