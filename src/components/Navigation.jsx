@@ -10,13 +10,10 @@ import {
 } from 'mdbreact';
 
 class Navigation extends Component {
-	constructor(props) {
-		super(props);
-		this.state = {
-			isOpen: false,
-			activeItem: 0
-		};
-	}
+	state = {
+		isOpen: false,
+		activeItem: 0
+	};
 
 	toggleCollapse = () => {
 		this.setState({ isOpen: !this.state.isOpen });
@@ -32,12 +29,9 @@ class Navigation extends Component {
 		let items = [];
 		if (this.props.routes) {
 			this.props.routes.forEach((route, index) => {
+				console.log(route.route);
 				items.push(
-					<MDBNavItem
-						key={index}
-						active={this.state.activeItem === index}
-						onClick={this.toggleTab(index)}
-					>
+					<MDBNavItem key={index}>
 						<MDBNavLink to={route.route} exact>
 							{route.name}
 						</MDBNavLink>
