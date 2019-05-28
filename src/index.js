@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom';
 import { HashRouter as Router } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 import App from './App';
-import 'bootstrap/dist/css/bootstrap.css';
-import './style/index.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import 'bootstrap-css-only/css/bootstrap.min.css';
+import 'mdbreact/dist/css/mdb.css';
+import './style/App.css';
 
 ReactDOM.render(
 	<Router>
