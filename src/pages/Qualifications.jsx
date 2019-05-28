@@ -1,6 +1,40 @@
 import React from 'react';
 import { Table, ListGroup } from 'react-bootstrap';
 
+const DisplayGrades = props => {
+	let rows = [];
+	if (props.info) {
+		let averageGrade = 0;
+		props.info.forEach(function(data, index) {
+			rows.push(
+				<tr key={index}>
+					<td>{data.module}</td>
+					<td>{data.grade}%</td>
+				</tr>
+			);
+			averageGrade += data.grade;
+		});
+		averageGrade /= props.info.length;
+		rows.push(
+			<tr key={props.info.length + 1}>
+				<th>Overall</th>
+				<td>{averageGrade}%</td>
+			</tr>
+		);
+	}
+	return props.info ? (
+		<Table striped bordered hover size='sm'>
+			<thead>
+				<tr>
+					<th>Module</th>
+					<th width='10%'>Grade</th>
+				</tr>
+			</thead>
+			<tbody>{rows}</tbody>
+		</Table>
+	) : null;
+};
+
 const Qualifications = () => (
 	<div>
 		<hr />
@@ -12,44 +46,17 @@ const Qualifications = () => (
 				University 2016-2019
 			</h2>
 			<h3>Year 1</h3>
-			<Table striped bordered hover size='sm'>
-				<thead>
-					<tr>
-						<th>Module</th>
-						<th width='10%'>Grade</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>Computer Fundamentals</td>
-						<td>75%</td>
-					</tr>
-					<tr>
-						<td>Object-Oriented Programming</td>
-						<td>96%</td>
-					</tr>
-					<tr>
-						<td>Procedual Programming</td>
-						<td>100%</td>
-					</tr>
-					<tr>
-						<td>Relational Databases</td>
-						<td>85%</td>
-					</tr>
-					<tr>
-						<td>Systems Analysis</td>
-						<td>74%</td>
-					</tr>
-					<tr>
-						<td>Web Technologies</td>
-						<td>83%</td>
-					</tr>
-					<tr>
-						<th>Overall</th>
-						<td>85.5%</td>
-					</tr>
-				</tbody>
-			</Table>
+
+			<DisplayGrades
+				info={[
+					{ module: 'Computer Fundamentals', grade: 75 },
+					{ module: 'Object-Oriented Programming', grade: 96 },
+					{ module: 'Procedual Programming', grade: 100 },
+					{ module: 'Relational Databases', grade: 85 },
+					{ module: 'Systems Analysis', grade: 74 },
+					{ module: 'Web Technologies', grade: 83 }
+				]}
+			/>
 
 			<h3>Year 2</h3>
 			<Table striped bordered hover size='sm'>
@@ -109,8 +116,8 @@ const Qualifications = () => (
 						<td>TBC</td>
 					</tr>
 					<tr>
-						<td>Games Design 71%</td>
-						<td>TBC</td>
+						<td>Games Design</td>
+						<td>71%</td>
 					</tr>
 					<tr>
 						<td>Computer Graphics and Animation</td>

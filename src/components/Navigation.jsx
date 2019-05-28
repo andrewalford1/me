@@ -16,19 +16,6 @@ const Navigation = props => {
 		});
 	}
 
-	let download = null;
-	if (props.download) {
-		download = (
-			<Nav className='justify-content-end'>
-				<NavItem className='mr-sm-2'>
-					<Nav.Link href={props.download.link}>
-						Download {props.download.name}
-					</Nav.Link>
-				</NavItem>
-			</Nav>
-		);
-	}
-
 	return props.routes ? (
 		<Navbar
 			className='mr-auto'
@@ -41,7 +28,6 @@ const Navigation = props => {
 				<Nav defaultActiveKey={props.routes[0]} className='mr-auto'>
 					{items}
 				</Nav>
-				{download}
 			</Navbar.Collapse>
 		</Navbar>
 	) : null;
