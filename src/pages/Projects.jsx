@@ -4,7 +4,7 @@ const Projects = () => (
 	<div>
 		<hr />
 		<h1 className='App-Header'>Projects</h1>
-		<div id='Project-A'>
+		<div id='Project-NoRestFortheMartians'>
 			<h2>No Rest for the Martians</h2>
 			<p>
 				Pellentesque habitant morbi tristique senectus et netus et
@@ -22,7 +22,7 @@ const Projects = () => (
 				accumsan porttitor, facilisis luctus, metus
 			</p>
 		</div>
-		<div id='Project-B'>
+		<div id='Project-MidnightRising'>
 			<h2>Midnight Rising</h2>
 			<p>
 				Pellentesque habitant morbi tristique senectus et netus et
@@ -40,7 +40,7 @@ const Projects = () => (
 				accumsan porttitor, facilisis luctus, metus
 			</p>
 		</div>
-		<div id='Project-C'>
+		<div id='Project-CPUonline'>
 			<h2>CPU Online</h2>
 			<p>
 				Pellentesque habitant morbi tristique senectus et netus et
@@ -58,7 +58,7 @@ const Projects = () => (
 				accumsan porttitor, facilisis luctus, metus
 			</p>
 		</div>
-		<div id='Project-D'>
+		<div id='Project-GalaxyAdventure'>
 			<h2>Galaxy Adventure</h2>
 			<p>
 				Pellentesque habitant morbi tristique senectus et netus et
@@ -76,7 +76,7 @@ const Projects = () => (
 				accumsan porttitor, facilisis luctus, metus
 			</p>
 		</div>
-		<div id='Project-E'>
+		<div id='Project-CrazyCarnival'>
 			<h2>Crazy Carnival</h2>
 			<p>
 				Pellentesque habitant morbi tristique senectus et netus et

@@ -10,33 +10,33 @@ const Home = () => (
 			highlights={[
 				{
 					imgSrc: `https://mdbootstrap.com/img/Photos/Slides/img%20(43).jpg`,
-					imgAlt: `MDB image 43`,
-					content: `Slide 1`,
-					link: `./projects#Project-A`
+					imgAlt: `C++ Unreal Engine 4 Project`,
+					content: `C++ Unreal Engine 4 Project`,
+					link: `./projects#Project-NoRestFortheMartians`
 				},
 				{
 					imgSrc: `https://mdbootstrap.com/img/Photos/Slides/img%20(63).jpg`,
-					imgAlt: `MDB image 63`,
-					content: `Slide 2`,
-					link: `./projects#Project-B`
+					imgAlt: `C# Unity Project`,
+					content: `C# Unity Project`,
+					link: `./projects#Project-MidnightRising`
 				},
 				{
 					imgSrc: `https://mdbootstrap.com/img/Photos/Slides/img%20(83).jpg`,
 					imgAlt: `MDB image 83`,
-					content: `Slide 3`,
-					link: `./projects#Project-C`
+					content: `Educational CPU Simulator`,
+					link: `./projects#Project-CPUonline`
 				},
 				{
 					imgSrc: `https://mdbootstrap.com/img/Photos/Slides/img%20(103).jpg`,
 					imgAlt: `MDB image 103`,
-					content: `Slide 4`,
-					link: `./projects#Project-D`
+					content: `Animations with THREE.JS`,
+					link: `./projects#Project-GalaxyAdventure`
 				},
 				{
 					imgSrc: `https://mdbootstrap.com/img/Photos/Slides/img%20(113).jpg`,
 					imgAlt: `MDB image 113`,
-					content: `Slide 5`,
-					link: `./projects#Project-E`
+					content: `Kinect-Controlled THREE JS`,
+					link: `./projects#Project-CrazyCarnival`
 				}
 			]}
 		/>
@@ -46,10 +46,10 @@ const Home = () => (
 		<div className={`App-CardGroup`}>
 			<Card
 				title={`About Me`}
-				text={`Ea veniam irure sit velit adipisicing aute cillum minim
-						quis. Occaecat laborum velit proident nisi anim pariatur
-						eu velit. Reprehenderit enim enim pariatur voluptate
-						elit.`}
+				text={`Hi, my name is Andrew Alford. I'm junior Software 
+				Engineer from the UK specialing in both games development 
+				(through my degree) and programming for the web 
+				(through my own interests).`}
 				button={
 					<MDBBtnGroup className={`mb-4`}>
 						<MDBBtn
@@ -71,10 +71,10 @@ const Home = () => (
 			/>
 			<Card
 				title={`My Qualifications`}
-				text={`Aute magna reprehenderit commodo ea velit irure ut.
-						Cillum elit laborum exercitation id labore enim officia
-						nisi qui aliquip excepteur laborum non. Eu duis nostrud
-						adipisicing sit eu.`}
+				text={`I have been programming for over five years now and have
+				a First-Class Degree in Computer Science with Games Development
+				from Northumbria University. Click the link below to view a 
+				full break-down of my qualifications.`}
 				button={
 					<MDBBtn
 						color={`primary`}
@@ -87,12 +87,7 @@ const Home = () => (
 			/>
 			<Card
 				title={`My Skills`}
-				text={`Ipsum nulla ut nostrud consectetur aute enim mollit
-						magna et voluptate cupidatat sit ullamco. Est cupidatat
-						commodo nulla quis pariatur sint incididunt. Fugiat aute
-						aliqua officia aliquip. Est labore aliquip magna aliqua
-						eiusmod veniam sint proident. Nulla non deserunt elit
-						enim tempor et sit incididunt.`}
+				text={`Being a creative thinker I can resolve issues quickly. `}
 				button={
 					<MDBBtn
 						color={`primary`}
@@ -105,12 +100,10 @@ const Home = () => (
 			/>
 			<Card
 				title={`Projects I've Worked on`}
-				text={`Qui deserunt veniam qui mollit. Ullamco sit in nulla
-						consectetur aliqua duis proident consequat magna tempor.
-						Eu aliqua ea ea occaecat labore elit minim irure laboris
-						commodo aliquip mollit ullamco. Eu duis ea velit non est
-						ipsum occaecat. Magna consequat tempor irure id quis est
-						qui Lorem eu proident voluptate duis reprehenderit.`}
+				text={`Thoughout University I have worked on many projects both
+				individually and within groups such as games, animations, and 
+				educational simulators. Click the link below to learn about 
+				all the University projects I'am most proud of.`}
 				button={
 					<MDBBtn
 						color={`primary`}

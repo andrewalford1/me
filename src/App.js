@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
-import { Container } from 'react-bootstrap';
+import { MDBContainer } from 'mdbreact';
 import Routes from './Routes';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
+/* <div style={{ margin: '5%', marginTop: '0' }}></div> */
+
 class App extends Component {
 	render() {
 		return (
-			<Container>
+			<MDBContainer fluid>
 				<Header
 					title={`Andrew's Portfolio`}
 					routes={[
@@ -26,7 +28,7 @@ class App extends Component {
 				/>
 				<Routes />
 				<Footer />
-			</Container>
+			</MDBContainer>
 		);
 	}
 }
