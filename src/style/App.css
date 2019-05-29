@@ -1,4 +1,5 @@
-p {
+p,
+li {
 	text-align: justify;
 	padding-bottom: 2%;
 }

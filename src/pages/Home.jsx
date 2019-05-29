@@ -49,7 +49,9 @@ const Home = () => (
 				text={`Hi, my name is Andrew Alford. I'm junior Software 
 				Engineer from the UK specialing in both games development 
 				(through my degree) and programming for the web 
-				(through my own interests).`}
+				(through my own interests). My goals are to constantly be
+				impoving my quality of code and to work within industry 
+				on new projects with exciting technologies.`}
 				button={
 					<MDBBtnGroup className={`mb-4`}>
 						<MDBBtn

@@ -13,18 +13,13 @@ class App extends Component {
 				<Header
 					title={`Andrew's Portfolio`}
 					routes={[
-						{ name: 'Home', route: '/' },
-						{ name: 'Blog', route: '/blog' },
-						{ name: 'Qualifications', route: '/qualifications' },
-						{ name: 'Skills', route: '/skills' },
-						{ name: 'Projects', route: '/projects' },
-						{ name: 'Timeline', route: '/timeline' }
+						{ name: `Home`, route: `/` },
+						{ name: `Blog`, route: `/blog` },
+						{ name: `Qualifications`, route: `/qualifications` },
+						{ name: `Skills`, route: `/skills` },
+						{ name: `Projects`, route: `/projects` },
+						{ name: `Timeline`, route: `/timeline` }
 					]}
-					download={{
-						name: 'CV',
-						link:
-							'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf'
-					}}
 				/>
 				<Routes />
 				<Footer />
