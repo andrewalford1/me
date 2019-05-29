@@ -14,3 +14,8 @@ p {
 	width: 100%;
 	text-align: center;
 }
+
+.App-CardGroup * {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
