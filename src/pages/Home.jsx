@@ -52,10 +52,18 @@ const Home = () => (
 						elit.`}
 				button={
 					<MDBBtnGroup className={`mb-4`}>
-						<MDBBtn color={`primary`} href={`#/blog`}>
+						<MDBBtn
+							color={`primary`}
+							href={`#/blog`}
+							onClick={() => window.scrollTo(0, 0)}
+						>
 							My Blog
 						</MDBBtn>
-						<MDBBtn color={`primary`} href={`#/timeline`}>
+						<MDBBtn
+							color={`primary`}
+							onClick={() => window.scrollTo(0, 0)}
+							href={`#/timeline`}
+						>
 							My Life so far
 						</MDBBtn>
 					</MDBBtnGroup>
@@ -68,7 +76,11 @@ const Home = () => (
 						nisi qui aliquip excepteur laborum non. Eu duis nostrud
 						adipisicing sit eu.`}
 				button={
-					<MDBBtn color={`primary`} href={`#/qualifications`}>
+					<MDBBtn
+						color={`primary`}
+						href={`#/qualifications`}
+						onClick={() => window.scrollTo(0, 0)}
+					>
 						Learn More...
 					</MDBBtn>
 				}
@@ -82,7 +94,11 @@ const Home = () => (
 						eiusmod veniam sint proident. Nulla non deserunt elit
 						enim tempor et sit incididunt.`}
 				button={
-					<MDBBtn color={`primary`} href={`#/skills`}>
+					<MDBBtn
+						color={`primary`}
+						href={`#/skills`}
+						onClick={() => window.scrollTo(0, 0)}
+					>
 						Learn More...
 					</MDBBtn>
 				}
@@ -96,7 +112,11 @@ const Home = () => (
 						ipsum occaecat. Magna consequat tempor irure id quis est
 						qui Lorem eu proident voluptate duis reprehenderit.`}
 				button={
-					<MDBBtn color={`primary`} href={`#/projects`}>
+					<MDBBtn
+						color={`primary`}
+						href={`#/projects`}
+						onClick={() => window.scrollTo(0, 0)}
+					>
 						Learn More...
 					</MDBBtn>
 				}

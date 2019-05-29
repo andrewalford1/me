@@ -59,80 +59,33 @@ const Qualifications = () => (
 			/>
 
 			<h3>Year 2</h3>
-			<Table striped bordered hover size='sm'>
-				<thead>
-					<tr>
-						<th>Module</th>
-						<th width='10%'>Grade</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>Computer Networks and Control Systems</td>
-						<td>93%</td>
-					</tr>
-					<tr>
-						<td>Intelligent Systems</td>
-						<td>70%</td>
-					</tr>
-					<tr>
-						<td>Operating Systems and Concurrency</td>
-						<td>84%</td>
-					</tr>
-					<tr>
-						<td>Program Design and Development</td>
-						<td>85%</td>
-					</tr>
-					<tr>
-						<td>Software Engineering Practice</td>
-						<td>70%</td>
-					</tr>
-					<tr>
-						<td>Web Programming</td>
-						<td>90%</td>
-					</tr>
-					<tr>
-						<th>Overall</th>
-						<td>82%</td>
-					</tr>
-				</tbody>
-			</Table>
+			<DisplayGrades
+				info={[
+					{
+						module: 'Computer Networks and Control Systems',
+						grade: 93
+					},
+					{ module: 'Intelligent Systems', grade: 70 },
+					{ module: 'Operating Systems and Concurrency', grade: 84 },
+					{ module: 'Program Design and Development', grade: 85 },
+					{ module: 'Software Engineering Practice', grade: 70 },
+					{ module: 'Web Programming', grade: 90 }
+				]}
+			/>
 
 			<h3>Year 3</h3>
-			<Table striped bordered hover size='sm'>
-				<thead>
-					<tr>
-						<th>Module</th>
-						<th width='10%'>Grade</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>Software Architecture for Games</td>
-						<td>86%</td>
-					</tr>
-					<tr>
-						<td>Team Project and Professionalism</td>
-						<td>TBC</td>
-					</tr>
-					<tr>
-						<td>Games Design</td>
-						<td>71%</td>
-					</tr>
-					<tr>
-						<td>Computer Graphics and Animation</td>
-						<td>70.5%</td>
-					</tr>
-					<tr>
-						<td>Individual Computing Project</td>
-						<td>TBC</td>
-					</tr>
-					<tr>
-						<th>Overall</th>
-						<td>75.8%</td>
-					</tr>
-				</tbody>
-			</Table>
+			<DisplayGrades
+				info={[
+					{
+						module: 'Software Architecture for Games',
+						grade: 86
+					},
+					{ module: 'Team Project and Professionalism', grade: 0 },
+					{ module: 'Games Design', grade: 71 },
+					{ module: 'Computer Graphics and Animation', grade: 70.5 },
+					{ module: 'Individual Computing Project', grade: 0 }
+				]}
+			/>
 
 			<h2>Other Qualifications</h2>
 			<ListGroup>
