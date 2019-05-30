@@ -6,13 +6,22 @@ const DisplayGrades = props => {
 	if (props.info) {
 		let averageGrade = 0;
 		props.info.forEach(function(data, index) {
-			rows.push(
-				<tr key={index}>
-					<td>{data.module}</td>
-					<td>{data.grade}%</td>
-				</tr>
-			);
-			averageGrade += data.grade;
+			if (data.grade !== 'TBD') {
+				rows.push(
+					<tr key={index}>
+						<td>{data.module}</td>
+						<td>{data.grade}%</td>
+					</tr>
+				);
+				averageGrade += data.grade;
+			} else {
+				rows.push(
+					<tr key={index}>
+						<td>{data.module}</td>
+						<td>{data.grade}</td>
+					</tr>
+				);
+			}
 		});
 		averageGrade /= props.info.length;
 		rows.push(
@@ -80,10 +89,10 @@ const Qualifications = () => (
 						module: 'Software Architecture for Games',
 						grade: 86
 					},
-					{ module: 'Team Project and Professionalism', grade: 0 },
+					{ module: 'Team Project and Professionalism', grade: 60 },
 					{ module: 'Games Design', grade: 71 },
 					{ module: 'Computer Graphics and Animation', grade: 70.5 },
-					{ module: 'Individual Computing Project', grade: 0 }
+					{ module: 'Individual Computing Project', grade: 'TBD' }
 				]}
 			/>
 
