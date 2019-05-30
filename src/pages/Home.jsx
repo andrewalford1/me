@@ -9,25 +9,25 @@ const Home = () => (
 		<Highlights
 			highlights={[
 				{
-					imgSrc: `/res/img/projects/galaxy_adventure.jpg`,
+					imgSrc: `./res/img/projects/galaxy_adventure.jpg`,
 					imgAlt: `Screen shot from 'Galaxy Adventure'`,
 					content: `Galaxy Adventure`,
 					link: `./projects#Project-GalaxyAdventure`
 				},
 				{
-					imgSrc: `/res/img/projects/midnight_rising.jpg`,
+					imgSrc: `./res/img/projects/midnight_rising.jpg`,
 					imgAlt: `Screen shot from 'Midnight Rising'`,
 					content: `Midnight Rising`,
 					link: `./projects#Project-MidnightRising`
 				},
 				{
-					imgSrc: `/res/img/projects/crazy_carnival.jpg`,
+					imgSrc: `./res/img/projects/crazy_carnival.jpg`,
 					imgAlt: `Screen shot from 'Crazy Carnival'`,
 					content: `The Crazy Carnival`,
 					link: `./projects#Project-CrazyCarnival`
 				},
 				{
-					imgSrc: `/res/img/projects/cpu_online.jpg`,
+					imgSrc: `./res/img/projects/cpu_online.jpg`,
 					imgAlt: `Screen shot from 'CPU Online'`,
 					content: `CPU Online`,
 					link: `./projects#Project-CPUonline`

@@ -12,7 +12,7 @@ const Projects = () => (
 					fluid
 					className='d-block w-100'
 					style={{ paddingBottom: '2%' }}
-					src={`/res/img/projects/no_rest_for_the_martians.jpg`}
+					src={`./res/img/projects/no_rest_for_the_martians.jpg`}
 					alt={`Screen shot from 'No Rest for the Martians'`}
 				/>
 				<p>
@@ -55,7 +55,7 @@ const Projects = () => (
 					fluid
 					className='d-block w-100'
 					style={{ paddingBottom: '2%' }}
-					src={`/res/img/projects/galaxy_adventure.jpg`}
+					src={`./res/img/projects/galaxy_adventure.jpg`}
 					alt={`Screen shot from 'Galaxy Adventure'`}
 				/>
 				<p>
@@ -100,7 +100,7 @@ const Projects = () => (
 					fluid
 					className='d-block w-100'
 					style={{ paddingBottom: '2%' }}
-					src={`/res/img/projects/christmas_game.jpg`}
+					src={`./res/img/projects/christmas_game.jpg`}
 					alt={`Screen shot from 'Christmas Conundrum'`}
 				/>
 				<p>
@@ -138,7 +138,7 @@ const Projects = () => (
 					fluid
 					className='d-block w-100'
 					style={{ paddingBottom: '2%' }}
-					src={`/res/img/projects/midnight_rising.jpg`}
+					src={`./res/img/projects/midnight_rising.jpg`}
 					alt={`Screen shot from 'Midnight Rising'`}
 				/>
 				<p>
@@ -186,7 +186,7 @@ const Projects = () => (
 					fluid
 					className='d-block w-100'
 					style={{ paddingBottom: '2%' }}
-					src={`/res/img/projects/crazy_carnival.jpg`}
+					src={`./res/img/projects/crazy_carnival.jpg`}
 					alt={`Screen shot from the 'Crazy Carnival'`}
 				/>
 				<p>
@@ -234,7 +234,7 @@ const Projects = () => (
 					fluid
 					className='d-block w-100'
 					style={{ paddingBottom: '2%' }}
-					src={`/res/img/projects/cpu_online.jpg`}
+					src={`./res/img/projects/cpu_online.jpg`}
 					alt={`Screen shot from 'CPU Online'`}
 				/>
 				<p>
