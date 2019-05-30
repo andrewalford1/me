@@ -80,9 +80,9 @@ const Qualifications = () => (
 						module: 'Software Architecture for Games',
 						grade: 86
 					},
-					{ module: 'Team Project and Professionalism', grade: 60 },
+					{ module: 'Team Project and Professionalism', grade: 0 },
 					{ module: 'Games Design', grade: 71 },
-					{ module: 'Computer Graphics and Animation', grade: 35 },
+					{ module: 'Computer Graphics and Animation', grade: 70.5 },
 					{ module: 'Individual Computing Project', grade: 0 }
 				]}
 			/>

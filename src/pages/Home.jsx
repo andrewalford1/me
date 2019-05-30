@@ -10,33 +10,33 @@ const Home = () => (
 			highlights={[
 				{
 					imgSrc: `https://mdbootstrap.com/img/Photos/Slides/img%20(43).jpg`,
-					imgAlt: `C++ Unreal Engine 4 Project`,
-					content: `C++ Unreal Engine 4 Project`,
-					link: `./projects#Project-NoRestFortheMartians`
+					imgAlt: `MDB image 43`,
+					content: `Slide 1`,
+					link: `./projects#Project-A`
 				},
 				{
 					imgSrc: `https://mdbootstrap.com/img/Photos/Slides/img%20(63).jpg`,
-					imgAlt: `C# Unity Project`,
-					content: `C# Unity Project`,
-					link: `./projects#Project-MidnightRising`
+					imgAlt: `MDB image 63`,
+					content: `Slide 2`,
+					link: `./projects#Project-B`
 				},
 				{
 					imgSrc: `https://mdbootstrap.com/img/Photos/Slides/img%20(83).jpg`,
 					imgAlt: `MDB image 83`,
-					content: `Educational CPU Simulator`,
-					link: `./projects#Project-CPUonline`
+					content: `Slide 3`,
+					link: `./projects#Project-C`
 				},
 				{
 					imgSrc: `https://mdbootstrap.com/img/Photos/Slides/img%20(103).jpg`,
 					imgAlt: `MDB image 103`,
-					content: `Animations with THREE.JS`,
-					link: `./projects#Project-GalaxyAdventure`
+					content: `Slide 4`,
+					link: `./projects#Project-D`
 				},
 				{
 					imgSrc: `https://mdbootstrap.com/img/Photos/Slides/img%20(113).jpg`,
 					imgAlt: `MDB image 113`,
-					content: `Kinect-Controlled THREE JS`,
-					link: `./projects#Project-CrazyCarnival`
+					content: `Slide 5`,
+					link: `./projects#Project-E`
 				}
 			]}
 		/>
@@ -46,12 +46,10 @@ const Home = () => (
 		<div className={`App-CardGroup`}>
 			<Card
 				title={`About Me`}
-				text={`Hi, my name is Andrew Alford. I'm junior Software 
-				Engineer from the UK specialing in both games development 
-				(through my degree) and programming for the web 
-				(through my own interests). My goals are to constantly be
-				impoving my quality of code and to work within industry 
-				on new projects with exciting technologies.`}
+				text={`Ea veniam irure sit velit adipisicing aute cillum minim
+						quis. Occaecat laborum velit proident nisi anim pariatur
+						eu velit. Reprehenderit enim enim pariatur voluptate
+						elit.`}
 				button={
 					<MDBBtnGroup className={`mb-4`}>
 						<MDBBtn
@@ -73,10 +71,10 @@ const Home = () => (
 			/>
 			<Card
 				title={`My Qualifications`}
-				text={`I have been programming for over five years now and have
-				a First-Class Degree in Computer Science with Games Development
-				from Northumbria University. Click the link below to view a 
-				full break-down of my qualifications.`}
+				text={`Aute magna reprehenderit commodo ea velit irure ut.
+						Cillum elit laborum exercitation id labore enim officia
+						nisi qui aliquip excepteur laborum non. Eu duis nostrud
+						adipisicing sit eu.`}
 				button={
 					<MDBBtn
 						color={`primary`}
@@ -89,7 +87,12 @@ const Home = () => (
 			/>
 			<Card
 				title={`My Skills`}
-				text={`Being a creative thinker I can resolve issues quickly. `}
+				text={`Ipsum nulla ut nostrud consectetur aute enim mollit
+						magna et voluptate cupidatat sit ullamco. Est cupidatat
+						commodo nulla quis pariatur sint incididunt. Fugiat aute
+						aliqua officia aliquip. Est labore aliquip magna aliqua
+						eiusmod veniam sint proident. Nulla non deserunt elit
+						enim tempor et sit incididunt.`}
 				button={
 					<MDBBtn
 						color={`primary`}
@@ -102,10 +105,12 @@ const Home = () => (
 			/>
 			<Card
 				title={`Projects I've Worked on`}
-				text={`Thoughout University I have worked on many projects both
-				individually and within groups such as games, animations, and 
-				educational simulators. Click the link below to learn about 
-				all the University projects I'am most proud of.`}
+				text={`Qui deserunt veniam qui mollit. Ullamco sit in nulla
+						consectetur aliqua duis proident consequat magna tempor.
+						Eu aliqua ea ea occaecat labore elit minim irure laboris
+						commodo aliquip mollit ullamco. Eu duis ea velit non est
+						ipsum occaecat. Magna consequat tempor irure id quis est
+						qui Lorem eu proident voluptate duis reprehenderit.`}
 				button={
 					<MDBBtn
 						color={`primary`}
