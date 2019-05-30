@@ -3,8 +3,7 @@ import { MDBBtn, MDBBtnGroup } from 'mdbreact';
 import Card from '../components/Card';
 import Highlights from '../components/Highlights';
 
-{
-	/* <Card
+/* <Card
 	title={`My Skills`}
 	text={`Being a creative thinker I can resolve issues quickly. `}
 	button={
@@ -17,7 +16,6 @@ import Highlights from '../components/Highlights';
 					</MDBBtn>
 	}
 /> */
-}
 
 const Home = () => (
 	<div>
