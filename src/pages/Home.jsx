@@ -56,8 +56,10 @@ const Home = () => (
 					<MDBBtnGroup className={`mb-4`}>
 						<MDBBtn
 							color={`primary`}
+							disabled
 							href={`#/blog`}
 							onClick={() => window.scrollTo(0, 0)}
+							active={false}
 						>
 							My Blog
 						</MDBBtn>
