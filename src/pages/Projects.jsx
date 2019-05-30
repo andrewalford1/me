@@ -5,7 +5,7 @@ const Projects = () => (
 	<div>
 		<hr />
 		<h1 className='App-Header'>Projects</h1>
-		<div>
+		<div style={{ marginTop: '2%', marginBottom: '2%' }}>
 			<div id={`Project-NoRestFortheMartians`}>
 				<h2>No Rest for the Martians - May 2018</h2>
 				<Image
@@ -80,6 +80,19 @@ const Projects = () => (
 					</li>
 					<li>Implementing VR into the project.</li>
 				</ul>
+				<div>
+					Check out the main project{' '}
+					<a href='http://unn-w16006135.newnumyspace.co.uk/KF6018_Assignment_1/project/'>
+						Here!
+					</a>{' '}
+					<i>(Requires VR device)</i>
+				</div>
+				<div>
+					Check out the Object Viewer{' '}
+					<a href='http://unn-w16006135.newnumyspace.co.uk/KF6018_Assignment_1/project/object_viewer.html'>
+						Here!
+					</a>
+				</div>
 			</div>
 			<div id={`Project-ChristmasConundrum`}>
 				<h2>Christmas Conundrum - December 2018</h2>
@@ -208,6 +221,12 @@ const Projects = () => (
 					</li>
 					<li>Real-time physics simulation using CANNON JS.</li>
 				</ul>
+				<div>
+					Check out the project{' '}
+					<a href='http://unn-w16006135.newnumyspace.co.uk/carnival_project/?useKinect=0&ip=192.168.60.56'>
+						Here!
+					</a>
+				</div>
 			</div>
 			<div id={`Project-CPUonline`}>
 				<h2>CPU Online - May 2019</h2>
@@ -256,6 +275,12 @@ const Projects = () => (
 						step through executing programs.
 					</li>
 				</ul>
+				<div>
+					Check out the project{' '}
+					<a href='http://unn-w16006135.newnumyspace.co.uk/cpu/build/'>
+						Here!
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>
