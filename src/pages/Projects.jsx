@@ -5,7 +5,7 @@ const Projects = () => (
 	<div>
 		<hr />
 		<h1 className='App-Header'>Projects</h1>
-		<div className={`App-CardGroup`}>
+		<div>
 			<div id={`Project-NoRestFortheMartians`}>
 				<h2>No Rest for the Martians - May 2018</h2>
 				<Image

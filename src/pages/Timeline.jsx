@@ -38,11 +38,22 @@ const Timeline = () => (
 					</li>
 					<li>
 						Acted as Treasurer for the Student Union's Farming
-						society
+						society which aids the{' '}
+						<a href={`https://www.ouseburnfarm.org.uk/`}>
+							Ouseburn Farm charity
+						</a>
+						.
 					</li>
 					<li>
 						Acted as Secratery for the Student Union's Ad-Hoc
 						society
+					</li>
+					<li>
+						I came third pace whilst representing my University in{' '}
+						<a href={`https://careersatnissan.co.uk/beamishwild/`}>
+							Nissan's tech challenge
+						</a>{' '}
+						at Beamish Wild
 					</li>
 				</ul>
 			</AntTimeline.Item>
@@ -50,7 +61,7 @@ const Timeline = () => (
 				2019
 				<ul>
 					<li>
-						Graduated Northumbria University with a First Class
+						Will graduate Northumbria University with a First Class
 						degree (hopefully)
 					</li>
 				</ul>
