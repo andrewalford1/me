@@ -31,7 +31,7 @@ const Projects = () => (
 					</li>
 					<li>Sourcing and implementing music within the game.</li>
 					<li>
-						Providing dialouge for the enemy characters within the
+						Providing dialogue for the enemy characters within the
 						game.
 					</li>
 					<li>
@@ -106,9 +106,9 @@ const Projects = () => (
 				<p>
 					'Christmas Conundrum' is a small game coded using C++ where
 					the player can take control of Santa who can kick, punch,
-					and thow deadly exploding presents. It was created to
+					and throw deadly exploding presents. It was created to
 					showcase a game engine created as part of my studies at
-					Northumbria University. The engine is built off of the
+					Northumbria University. The engine is built off the
 					Universities 'Shell Engine', which is powered by Direct X.
 					My additions to the engine include:
 				</p>
@@ -142,9 +142,9 @@ const Projects = () => (
 					alt={`Screen shot from 'Midnight Rising'`}
 				/>
 				<p>
-					Similarly to 'No Rest for the Martians', 'Midnight Rising'
-					was the major piece of groupwork submitted for my final year
-					of University. 'Midnight Rising' is a top-down wave-based
+					Similar to 'No Rest for the Martians', 'Midnight Rising' was
+					the major piece of groupwork submitted for my final year of
+					University. 'Midnight Rising' is a top-down wave-based
 					survival game where players aim to last as long as possible
 					while fighting enemy zombies which get increasingly tougher
 					to combat as waves increment The group consisted of five
@@ -155,7 +155,7 @@ const Projects = () => (
 				<ul>
 					<li>
 						Customisable control schemes which allow the player to
-						move around the enviroment.
+						move around the environment.
 					</li>
 					<li>Support for both PC and Xbox One peripherals. </li>
 					<li>
@@ -192,16 +192,16 @@ const Projects = () => (
 				<p>
 					Just like 'Galaxy Adventure', 'Crazy Carnival' uses THREE JS
 					to create an interactive animated scene. This time the user
-					is able to explore the enviroment through a Microsoft Kinect
-					via a kinectron server. Using URL parameters, the project
-					can be ran using either the kinect or a mouse and keyboard.
-					'Carzy Carnival' is a much larger project than 'Galaxy
-					Adventure' as it was created alongside three other students.
-					Interesting concepts from this project included:
+					is able to explore the environment through a Microsoft
+					Kinect via a kinectron server. Using URL parameters, the
+					project can be ran using either the kinect or a mouse and
+					keyboard. 'Carzy Carnival' is a much larger project than
+					'Galaxy Adventure' as it was created alongside three other
+					students. Interesting concepts from this project included:
 				</p>
 				<ul>
 					<li>
-						Moving around an enviroment using a Microsoft Kinect as
+						Moving around an environment using a Microsoft Kinect as
 						a peripheral.
 					</li>
 					<li>
@@ -210,7 +210,7 @@ const Projects = () => (
 						<ul>
 							<li>Bowling</li>
 							<li>Football</li>
-							<li>Stength-O-Meter</li>
+							<li>Strength-O-Meter</li>
 							<li>Whack-A-Mole</li>
 						</ul>
 					</li>
@@ -241,12 +241,12 @@ const Projects = () => (
 					Being my Undergraduate Dissertation, CPU Online is the
 					biggest project I have completed to date. During my first
 					year of University I learnt basic computer architecture on
-					JASPer, a tool which has not recieved an update since 2003.
+					JASPer, a tool which has not received an update since 2003.
 					After researching online, there is a big gap in the market
 					for modernised CPU simulators. CPU Online is currently under
 					consideration to replace JASPer, the current teaching tool
-					being used at Northumbria University as it implementings the
-					following features which streamline CPU teaching:
+					being used at Northumbria University as it implements the
+					following features to streamline CPU teaching:
 				</p>
 				<ul>
 					<li>
@@ -259,7 +259,8 @@ const Projects = () => (
 						Execute' cycle.
 					</li>
 					<li>
-						Animations to show the interactions occuring on the CPU.
+						Animations to show the interactions occurring on the
+						CPU.
 					</li>
 					<li>
 						Its own text-editor, assembly language, and assembler to
@@ -268,7 +269,7 @@ const Projects = () => (
 					</li>
 					<li>
 						A console which will show the state of the CPU and
-						accept incomming commands.
+						accept incoming commands.
 					</li>
 					<li>
 						GUI elements to play, pause, speed up, slow down, or

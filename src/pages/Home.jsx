@@ -3,6 +3,22 @@ import { MDBBtn, MDBBtnGroup } from 'mdbreact';
 import Card from '../components/Card';
 import Highlights from '../components/Highlights';
 
+{
+	/* <Card
+	title={`My Skills`}
+	text={`Being a creative thinker I can resolve issues quickly. `}
+	button={
+		<MDBBtn
+			color={`primary`}
+			href={`#/skills`}
+			onClick={() => window.scrollTo(0, 0)}
+		>
+			Learn More...
+					</MDBBtn>
+	}
+/> */
+}
+
 const Home = () => (
 	<div>
 		<hr />
@@ -41,10 +57,10 @@ const Home = () => (
 			<Card
 				title={`About Me`}
 				text={`Hi, my name is Andrew Alford. I'm junior Software 
-				Engineer from the UK specialing in both games development 
+				Engineer from the UK specialising in both games development 
 				(through my degree) and programming for the web 
 				(through my own interests). My goals are to constantly be
-				impoving my quality of code and to work within industry 
+				improving my quality of code and to work within industry 
 				on new projects with exciting technologies.`}
 				button={
 					<MDBBtnGroup className={`mb-4`}>
@@ -84,24 +100,11 @@ const Home = () => (
 				}
 			/>
 			<Card
-				title={`My Skills`}
-				text={`Being a creative thinker I can resolve issues quickly. `}
-				button={
-					<MDBBtn
-						color={`primary`}
-						href={`#/skills`}
-						onClick={() => window.scrollTo(0, 0)}
-					>
-						Learn More...
-					</MDBBtn>
-				}
-			/>
-			<Card
 				title={`Projects I've Worked on`}
-				text={`Thoughout University I have worked on many projects both
+				text={`Throughout University I have worked on many projects both
 				individually and within groups such as games, animations, and 
 				educational simulators. Click the link below to learn about 
-				all the University projects I'am most proud of.`}
+				all the University projects I’m most proud of.`}
 				button={
 					<MDBBtn
 						color={`primary`}
