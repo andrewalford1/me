@@ -9,34 +9,28 @@ const Home = () => (
 		<Highlights
 			highlights={[
 				{
-					imgSrc: `https://mdbootstrap.com/img/Photos/Slides/img%20(43).jpg`,
-					imgAlt: `MDB image 43`,
-					content: `Slide 1`,
-					link: `./projects#Project-A`
+					imgSrc: `/res/img/projects/galaxy_adventure.jpg`,
+					imgAlt: `Screen shot from 'Galaxy Adventure'`,
+					content: `Galaxy Adventure`,
+					link: `./projects#Project-GalaxyAdventure`
 				},
 				{
-					imgSrc: `https://mdbootstrap.com/img/Photos/Slides/img%20(63).jpg`,
-					imgAlt: `MDB image 63`,
-					content: `Slide 2`,
-					link: `./projects#Project-B`
+					imgSrc: `/res/img/projects/midnight_rising.jpg`,
+					imgAlt: `Screen shot from 'Midnight Rising'`,
+					content: `Midnight Rising`,
+					link: `./projects#Project-MidnightRising`
 				},
 				{
-					imgSrc: `https://mdbootstrap.com/img/Photos/Slides/img%20(83).jpg`,
-					imgAlt: `MDB image 83`,
-					content: `Slide 3`,
-					link: `./projects#Project-C`
+					imgSrc: `/res/img/projects/crazy_carnival.jpg`,
+					imgAlt: `Screen shot from 'Crazy Carnival'`,
+					content: `The Crazy Carnival`,
+					link: `./projects#Project-CrazyCarnival`
 				},
 				{
-					imgSrc: `https://mdbootstrap.com/img/Photos/Slides/img%20(103).jpg`,
-					imgAlt: `MDB image 103`,
-					content: `Slide 4`,
-					link: `./projects#Project-D`
-				},
-				{
-					imgSrc: `https://mdbootstrap.com/img/Photos/Slides/img%20(113).jpg`,
-					imgAlt: `MDB image 113`,
-					content: `Slide 5`,
-					link: `./projects#Project-E`
+					imgSrc: `/res/img/projects/cpu_online.jpg`,
+					imgAlt: `Screen shot from 'CPU Online'`,
+					content: `CPU Online`,
+					link: `./projects#Project-CPUonline`
 				}
 			]}
 		/>

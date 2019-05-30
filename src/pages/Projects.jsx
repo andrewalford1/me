@@ -11,8 +11,9 @@ const Projects = () => (
 				<Image
 					fluid
 					className='d-block w-100'
-					src={`https://mdbootstrap.com/img/Photos/Slides/img%20(10).jpg`}
-					alt={`Tempory Image`}
+					style={{ paddingBottom: '2%' }}
+					src={`/res/img/projects/no_rest_for_the_martians.jpg`}
+					alt={`Screen shot from 'No Rest for the Martians'`}
 				/>
 				<p>
 					Developed by myself and three other students, 'No Rest for
@@ -53,8 +54,9 @@ const Projects = () => (
 				<Image
 					fluid
 					className='d-block w-100'
-					src={`https://mdbootstrap.com/img/Photos/Slides/img%20(12).jpg`}
-					alt={`Tempory Image`}
+					style={{ paddingBottom: '2%' }}
+					src={`/res/img/projects/galaxy_adventure.jpg`}
+					alt={`Screen shot from 'Galaxy Adventure'`}
 				/>
 				<p>
 					Using Mr Doobs THREE JS library I create 'Galaxy Adventure',
@@ -84,8 +86,9 @@ const Projects = () => (
 				<Image
 					fluid
 					className='d-block w-100'
-					src={`https://mdbootstrap.com/img/Photos/Slides/img%20(14).jpg`}
-					alt={`Tempory Image`}
+					style={{ paddingBottom: '2%' }}
+					src={`/res/img/projects/christmas_game.jpg`}
+					alt={`Screen shot from 'Christmas Conundrum'`}
 				/>
 				<p>
 					'Christmas Conundrum' is a small game coded using C++ where
@@ -121,8 +124,9 @@ const Projects = () => (
 				<Image
 					fluid
 					className='d-block w-100'
-					src={`https://mdbootstrap.com/img/Photos/Slides/img%20(16).jpg`}
-					alt={`Tempory Image`}
+					style={{ paddingBottom: '2%' }}
+					src={`/res/img/projects/midnight_rising.jpg`}
+					alt={`Screen shot from 'Midnight Rising'`}
 				/>
 				<p>
 					Similarly to 'No Rest for the Martians', 'Midnight Rising'
@@ -168,8 +172,9 @@ const Projects = () => (
 				<Image
 					fluid
 					className='d-block w-100'
-					src={`https://mdbootstrap.com/img/Photos/Slides/img%20(20).jpg`}
-					alt={`Tempory Image`}
+					style={{ paddingBottom: '2%' }}
+					src={`/res/img/projects/crazy_carnival.jpg`}
+					alt={`Screen shot from the 'Crazy Carnival'`}
 				/>
 				<p>
 					Just like 'Galaxy Adventure', 'Crazy Carnival' uses THREE JS
@@ -209,8 +214,9 @@ const Projects = () => (
 				<Image
 					fluid
 					className='d-block w-100'
-					src={`https://mdbootstrap.com/img/Photos/Slides/img%20(18).jpg`}
-					alt={`Tempory Image`}
+					style={{ paddingBottom: '2%' }}
+					src={`/res/img/projects/cpu_online.jpg`}
+					alt={`Screen shot from 'CPU Online'`}
 				/>
 				<p>
 					Being my Undergraduate Dissertation, CPU Online is the
