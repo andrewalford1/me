@@ -89,7 +89,10 @@ const Qualifications = () => (
 						module: 'Software Architecture for Games',
 						grade: 86
 					},
-					{ module: 'Team Project and Professionalism', grade: 60 },
+					{
+						module: 'Team Project and Professionalism',
+						grade: 'TBD'
+					},
 					{ module: 'Games Design', grade: 71 },
 					{ module: 'Computer Graphics and Animation', grade: 70.5 },
 					{ module: 'Individual Computing Project', grade: 'TBD' }
@@ -101,14 +104,12 @@ const Qualifications = () => (
 				<ListGroup.Item>
 					A-Level Computer Science Grade B
 				</ListGroup.Item>
+				<ListGroup.Item>A-Level Mathematics Grade B</ListGroup.Item>
 				<ListGroup.Item>
-					A-Level Computer Science Grade B
+					A-Level Design & Technology Grade B
 				</ListGroup.Item>
 				<ListGroup.Item>
-					A-Level Computer Science Grade B
-				</ListGroup.Item>
-				<ListGroup.Item>
-					9 GCSE's including Maths, English, and Science
+					Nine GCSE's including Maths, English, and Science
 				</ListGroup.Item>
 			</ListGroup>
 		</div>
