@@ -54,7 +54,7 @@ const Home = () => (
 		<div className={`App-CardGroup`}>
 			<Card
 				title={`About Me`}
-				text={`Hi, my name is Andrew Alford. I'm junior Software 
+				text={`Hi, my name is Andrew Alford. I am a junior Software 
 				Engineer from the UK specialising in both games development 
 				(through my degree) and programming for the web 
 				(through my own interests). My goals are to constantly be
