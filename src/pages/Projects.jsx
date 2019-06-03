@@ -7,7 +7,7 @@ const Projects = () => (
 		<h1 className='App-Header'>Projects</h1>
 		<div style={{ marginTop: '2%', marginBottom: '2%' }}>
 			<div id={`Project-NoRestFortheMartians`}>
-				<h2>No Rest for the Martians - May 2018</h2>
+				<h2>No Rest for the Martians - May 2017</h2>
 				<Image
 					fluid
 					className='d-block w-100'
@@ -36,11 +36,11 @@ const Projects = () => (
 					</li>
 					<li>
 						Using C++ to script functional doors which open/close in
-						response to the players actions within the game.
+						response to the player's actions within the game.
 					</li>
 					<li>
 						Using C++ to create reusable and customisable 'pick-up'
-						items which affect the stats.
+						items which affect the player's stats.
 					</li>
 					<li>
 						Creating models which change state and eventually
@@ -59,10 +59,10 @@ const Projects = () => (
 					alt={`Screen shot from 'Galaxy Adventure'`}
 				/>
 				<p>
-					Using Mr Doobs THREE JS library I create 'Galaxy Adventure',
-					an interactive VR application for both mobile and desktop
-					devices. Two version of the project exist. The main
-					application, which allows the user to sit inside their
+					Using Mr Doobs THREE JS library I created 'Galaxy
+					Adventure', an interactive VR application for both mobile
+					and desktop devices. Two version of the project exist. The
+					main application, which allows the user to sit inside their
 					propeller plane and explore the galaxy, and the Object
 					Viewer which enables users to view and interact with each
 					individual object create for the project. Interesting
