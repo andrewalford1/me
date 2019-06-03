@@ -2,10 +2,6 @@ import React from 'react';
 import { MDBIcon, MDBBtn, MDBBtnGroup } from 'mdbreact';
 import '../style/App.css';
 
-/* <div style={{ paddingBottom: '5%' }}>
-	<a href={'./res/pdf/andrew_alford_cv_2018.pdf'}>Download CV</a>
-</div> */
-
 const Footer = () => (
 	<footer className='App-Footer'>
 		<hr />
@@ -15,7 +11,9 @@ const Footer = () => (
 				andrewalford1@outlook.com
 			</a>
 		</div>
-
+		<div style={{ paddingBottom: '5%' }}>
+			<a href={'./res/pdf/cv_june_2019.pdf'}>Download CV</a>
+		</div>
 		<div style={{ paddingBottom: '5%' }}>
 			<MDBBtnGroup size='sm' className='mb-4'>
 				<MDBBtn
