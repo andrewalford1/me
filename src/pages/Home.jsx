@@ -3,20 +3,6 @@ import { MDBBtn, MDBBtnGroup } from 'mdbreact';
 import Card from '../components/Card';
 import Highlights from '../components/Highlights';
 
-/* <Card
-	title={`My Skills`}
-	text={`Being a creative thinker I can resolve issues quickly. `}
-	button={
-		<MDBBtn
-			color={`primary`}
-			href={`#/skills`}
-			onClick={() => window.scrollTo(0, 0)}
-		>
-			Learn More...
-					</MDBBtn>
-	}
-/> */
-
 const Home = () => (
 	<div>
 		<hr />
@@ -64,19 +50,10 @@ const Home = () => (
 					<MDBBtnGroup className={`mb-4`}>
 						<MDBBtn
 							color={`primary`}
-							disabled
-							href={`#/blog`}
-							onClick={() => window.scrollTo(0, 0)}
-							active={false}
-						>
-							My Blog
-						</MDBBtn>
-						<MDBBtn
-							color={`primary`}
 							onClick={() => window.scrollTo(0, 0)}
 							href={`#/timeline`}
 						>
-							My Life so far
+							View my Timeline...
 						</MDBBtn>
 					</MDBBtnGroup>
 				}

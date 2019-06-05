@@ -12,7 +12,6 @@ class App extends Component {
 					title={`Andrew's Portfolio`}
 					routes={[
 						{ name: 'Home', route: '/' },
-						{ name: 'Blog', route: '/blog' },
 						{ name: 'Qualifications', route: '/qualifications' },
 						{ name: 'Skills', route: '/skills' },
 						{ name: 'Projects', route: '/projects' },
