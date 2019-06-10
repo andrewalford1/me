@@ -24,6 +24,7 @@ const DisplayGrades = props => {
 			}
 		});
 		averageGrade /= props.info.length;
+		averageGrade = averageGrade.toFixed(1);
 		rows.push(
 			<tr key={props.info.length + 1}>
 				<th>Overall</th>
@@ -91,11 +92,12 @@ const Qualifications = () => (
 					},
 					{
 						module: 'Team Project and Professionalism',
-						grade: 'TBD'
+						grade: 85
 					},
 					{ module: 'Games Design', grade: 71 },
-					{ module: 'Computer Graphics and Animation', grade: 70.5 },
-					{ module: 'Individual Computing Project', grade: 'TBD' }
+					{ module: 'Computer Graphics and Animation', grade: 84.5 },
+					{ module: 'Individual Computing Project', grade: 77 },
+					{ module: 'Individual Computing Project', grade: 77 }
 				]}
 			/>
 
