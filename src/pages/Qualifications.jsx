@@ -95,9 +95,9 @@ const Qualifications = () => (
 						grade: 85
 					},
 					{ module: 'Games Design', grade: 71 },
-					{ module: 'Computer Graphics and Animation', grade: 84.5 },
-					{ module: 'Individual Computing Project', grade: 77 },
-					{ module: 'Individual Computing Project', grade: 77 }
+					{ module: 'Computer Graphics and Animation', grade: 78.5 },
+					{ module: 'Individual Computing Project (20 credits)', grade: 77 },
+					{ module: 'Individual Computing Project (20 credits)', grade: 77 }
 				]}
 			/>
 
