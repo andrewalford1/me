@@ -24,6 +24,7 @@ const DisplayGrades = props => {
 			}
 		});
 		averageGrade /= props.info.length;
+		averageGrade = averageGrade.toFixed(1);
 		rows.push(
 			<tr key={props.info.length + 1}>
 				<th>Overall</th>
@@ -51,8 +52,8 @@ const Qualifications = () => (
 
 		<div>
 			<h2>
-				Bachelor of Science (Honours) in Computer Science at Northumbria
-				University 2016-2019
+				First Class Bachelors of Science (with Honours) in Computer
+				Science at Northumbria University 2016-2019
 			</h2>
 			<h3>Year 1</h3>
 
@@ -91,11 +92,11 @@ const Qualifications = () => (
 					},
 					{
 						module: 'Team Project and Professionalism',
-						grade: 'TBD'
+						grade: 85
 					},
 					{ module: 'Games Design', grade: 71 },
-					{ module: 'Computer Graphics and Animation', grade: 70.5 },
-					{ module: 'Individual Computing Project', grade: 'TBD' }
+					{ module: 'Computer Graphics and Animation', grade: 80 },
+					{ module: 'Individual Computing Project', grade: 77 }
 				]}
 			/>
 
