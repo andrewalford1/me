@@ -7,7 +7,7 @@
 		"antd": "^3.18.2",
 		"babel-plugin-import": "^1.11.2",
 		"bootstrap": "^4.3.1",
-		"customize-cra": "^0.2.12",
+		"customize-cra": "^0.2.14",
 		"gh-pages": "^2.0.1",
 		"history": "^4.9.0",
 		"jquery": "^3.4.1",
@@ -52,6 +52,6 @@
 	"author": "Andrew Alford <35538694+andrewalford1@users.noreply.github.com>",
 	"license": "MIT",
 	"devDependencies": {
-		"react-app-rewired": "^2.1.3"
+		"react-app-rewired": "^2.1.11"
 	}
 }
