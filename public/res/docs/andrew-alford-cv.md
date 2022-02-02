@@ -1,12 +1,10 @@
-# Andrew Alford
+## Andrew Alford
 
 andrewalford1@outlook.com |	 [Github](https://github.com/andrewalford1) 	| 	[LinkedIn](www.linkedin.com/in/andrew-alford-479155152)
 
-## About Me
-
 I am a Software Engineer from the UK specialising in both games development (through my degree) and programming for the web (through my own interests). My goals are to constantly be improving my quality of code and to work within industry on new projects with exciting technologies.
 
-## Education
+### Education
 
 **BSC (HONS) Computer Science with Games Development**	*Northumbria University Newcastle - Sept 2016 - July 2019* 
 
@@ -16,12 +14,10 @@ I am a Software Engineer from the UK specialising in both games development (thr
 
 **Other Qualifications**	*A-Levels & GCSEs - Sept 2012 - July 2016*
 
-- A-Level Computer Science: Grate B
-- A-Level mathematics: Grade B
-- A-Level Design & Technology: Grade B
+- A-Level Computer Science, mathematics, and Design & Technology
 - Nine GSCEs including Mathematics, English, & Science
 
-## Skills
+### Skills
 
 **Languages**:	 JavaScript, C#, C++, Java, Python
 
@@ -29,7 +25,7 @@ I am a Software Engineer from the UK specialising in both games development (thr
 
 **Software & Tools:**	VS Code, Visual Studio, Eclipse, Overleaf, The Adobe Suite
 
-## Projects
+### Projects
 
 **C#, Unity Engine, & WebGL**	*CPU Online - Northumbria University, May 2019*
 
@@ -73,7 +69,7 @@ I am a Software Engineer from the UK specialising in both games development (thr
 - C++ has been used to script functional doors which open/close in response to the player's actions within the game
 - C++ has been used to create reusable and customisable 'pick-up' items which affect the player's stats
 
-## Extra curricular Activity
+### Extra curricular Activity
 
 **Northumbria University Newcastle**	*Student Volunteer- Sept 2016 - July 2019*
 
@@ -92,23 +88,14 @@ I am a Software Engineer from the UK specialising in both games development (thr
   - Solving technical and coding-oriented puzzles under time
   - Coordinating as a team to work through physical trials such as tree-top obstacle courses and a country wide scavenger hunt
 
-## Experience
+### Experience
 
-**Tracerco**
+**Tracerco**	| Software Engineer	|	July 2019 - Present
 
-- Software Engineer, Oct 2021 - Present
-- Associate Software Engineer, July 2019 - Oct 2021
+**Northern Football Club**	|	Bar Staff	| Jan 2016 - July 2019
 
-**Northern Football Club**
+### References
 
-- Bar Staff, Jan 2016 - July 2019
+**Northumbria University Newcastle**	|	Chris Rook - Senior Lecturer	|	c.rook@northumbria.ac.uk	|	0191 2437615
 
-## References
-
-**Northumbria University Newcastle**
-
-Chris Rook - Senior Lecturer	|	c.rook@northumbria.ac.uk	|	0191 2437615
-
-**Northern Football Club**
-
-David Giles - General Manager	|	davidgiles@northernfootballclub.co.uk	|	0191 236 3369
+**Northern Football Club**	|	David Giles - General Manager	|	davidgiles@northernfootballclub.co.uk	|	0191 236 3369
