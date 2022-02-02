@@ -12,7 +12,7 @@ const Footer = () => (
 			</a>
 		</div>
 		<div style={{ paddingBottom: '5%' }}>
-			<a href={'./res/pdf/cv_june_2019.pdf'}>Download CV</a>
+			<a href={'./res/docs/andrew-alford-cv.pdf'}>Download CV</a>
 		</div>
 		<div style={{ paddingBottom: '5%' }}>
 			<MDBBtnGroup size='sm' className='mb-4'>
