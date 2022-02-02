@@ -1,6 +1,6 @@
 ## Andrew Alford
 
-andrewalford1@outlook.com |	 [Github](https://github.com/andrewalford1) 	| 	[LinkedIn](www.linkedin.com/in/andrew-alford-479155152)
+:email: andrewalford1@outlook.com 	|	:computer:  [Github](https://github.com/andrewalford1) 	|	 :blue_book: [LinkedIn](www.linkedin.com/in/andrew-alford-479155152)
 
 I am a Software Engineer from the UK specialising in both games development (through my degree) and programming for the web (through my own interests). My goals are to constantly be improving my quality of code and to work within industry on new projects with exciting technologies.
 
@@ -96,6 +96,6 @@ I am a Software Engineer from the UK specialising in both games development (thr
 
 ### References
 
-**Northumbria University Newcastle**	|	Chris Rook - Senior Lecturer	|	c.rook@northumbria.ac.uk	|	0191 2437615
+**Chris Rook** - Senior Lecturer	|	Northumbria University Newcastle	|	:email: [c.rook@northumbria.ac.uk](mailto:c.rook@northumbria.ac.uk)	|	:phone: 0191 2437615
 
-**Northern Football Club**	|	David Giles - General Manager	|	davidgiles@northernfootballclub.co.uk	|	0191 236 3369
+**David Giles** - General Manager	|	Northern Football Club	|	:email: davidgiles@northernfootballclub.co.uk	|	:phone: 0191 236 3369
