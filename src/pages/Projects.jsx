@@ -205,7 +205,7 @@ const Projects = () => (
 						a peripheral.
 					</li>
 					<li>
-						Playing interactive games using the Microsoft Kinect
+						Playing interactive games, via gesture tracking, using the Microsoft Kinect
 						such as:
 						<ul>
 							<li>Bowling</li>
