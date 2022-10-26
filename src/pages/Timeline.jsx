@@ -4,6 +4,7 @@ import { Timeline as AntTimeline } from 'antd';
 const Timeline = () => (
 	<div>
 		<hr />
+		<h1 className='App-Header'>Timeline</h1>
 		<h2>The Road So Far</h2>
 		<AntTimeline style={{ padding: '5%' }}>
 			<AntTimeline.Item>
