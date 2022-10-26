@@ -5,6 +5,7 @@ import Qualifications from './pages/Qualifications.jsx';
 import Projects from './pages/Projects.jsx';
 import Skills from './pages/Skills.jsx';
 import Timeline from './pages/Timeline.jsx';
+import Contact from './pages/Contact.jsx';
 import UnknownPage from './pages/UnknownPage.jsx';
 
 const Routes = () => (
@@ -15,6 +16,7 @@ const Routes = () => (
 			<Route exact path='/projects' component={Projects} />
 			<Route exact path='/skills' component={Skills} />
 			<Route exact path='/timeline' component={Timeline} />
+			<Route exact path='/contact' component={Contact} />
 			<Route component={UnknownPage} />
 		</Switch>
 	</main>

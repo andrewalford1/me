@@ -15,7 +15,8 @@ class App extends Component {
 						{ name: 'Qualifications', route: '/qualifications' },
 						{ name: 'Skills', route: '/skills' },
 						{ name: 'Projects', route: '/projects' },
-						{ name: 'Timeline', route: '/timeline' }
+						{ name: 'Timeline', route: '/timeline' },
+						{ name: 'Contact', route: '/contact'}
 					]}
 					download={{
 						name: 'CV',
